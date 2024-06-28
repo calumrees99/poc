@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/1e0cdaa9-72df-46f5-b566-03ca2b8064af/resourceGroups/csr-dev-uks-rg/providers/Microsoft.Web/sites/csr-dev-uks-app",
-    "appService.deploySubpath": "barracuda-waf\\src\\publish"
-}
