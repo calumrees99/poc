@@ -35,7 +35,7 @@ Deploy Bicep file
 
 3) Once Web App is deployed, manually set web stack and deployment configuration
 
-4) Manually Activate the Barracuda WAF license, by navigating to "http://<PublicIpAddress>:8000" and following the onscreen instructions
+4) Manually Activate the Barracuda WAF license, by navigating to "http://PublicIpAddress:8000" and following the onscreen instructions
 
 5) Create an A record for your custom domain pointed at the Public Ip Address of the Virtual Machine
 
@@ -44,7 +44,7 @@ Deploy Bicep file
 ``` terraform init ```
 ``` terraform apply -var-file='dev-waf.tfvars' ```
 
-7) Check access you website using by naviating to http://<customHostname> 
+7) Check access you website using by naviating to http://customHostname 
 
 8) Teardown environment
 
